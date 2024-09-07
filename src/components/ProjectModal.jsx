@@ -50,7 +50,7 @@ const projectData = {
       description: 'Standee',
     },
     {
-      image: '/assets/img/project-img/print-materials/newsletter.jpg',
+      image: '/assets/img/project-img/print-materials/newsletter.png',
       description: 'Newsletter',
     },
     {
