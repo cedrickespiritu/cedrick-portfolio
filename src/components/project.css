@@ -1,0 +1,37 @@
+span.page-title-span {
+    font-size: 3rem;
+    font-weight: 800;
+}
+li.portfolio-card-li {
+    background-color: #172461;
+    background-blend-mode: lighten;
+    width: 12rem;
+    height: 14rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+    border-radius: 1.5rem;
+}
+.portfolio-card-li {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.span.card-footer {
+    background: #172461ad;
+    padding: 5px 10px;
+    border-radius: .5rem;
+}
+li.portfolio-card-li:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .portfolio-card-li{
+        width: 43% !important;
+    }
+    span.page-title-span{
+        text-align: center;
+    }
+}
