@@ -155,42 +155,43 @@ const ProjectModal = ({ handleClose, projectType }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 text-primary top-[2rem]">
       <div className="bg-white w-[90%] max-w-[1000px] max-h-[80%] overflow-y-auto p-6 rounded-lg shadow-lg relative sm:min-w-[60vw]">
-        <h2 className="text-xl font-bold mb-4">{projectType}</h2>
+        <div className="position-fixed"><div className="modal-header">
+        <h2 className="text-xl font-bold">{projectType}</h2>
+          <button
+            className="text-white bg-red-500 px-4 py-2 rounded"
+            onClick={handleClose}
+          >✖
+          </button>
+        </div></div>
 
-        <div className="projects-loop">
-        {projects && projects.map((project, index) => (
-          <div key={index} className="project-container">
-            <div className="project-image-container">
-              <img src={project.image} alt={project.description} />
-            </div>
-            <div className="project-details-container">
-              <span className="project-detail">{project.description}</span>
-            </div>
-            <div className="project-links-container">
-              {project.demoLink && (
-                <span className="demo-link">
-                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                    View
-                  </a>
-                </span>
-              )}
-              {project.codeLink && (
-                <span className="code-link">
-                  <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
-                    Code
-                  </a>
-                </span>
-              )}
-            </div>
-          </div>
-        ))}
-</div>
-        
-        <button
-          className="absolute top-4 right-4 text-white bg-red-500 px-4 py-2 rounded"
-          onClick={handleClose}
-        >✖
-        </button>
+                <div className="projects-loop">
+                {projects && projects.map((project, index) => (
+                  <div key={index} className="project-container">
+                    <div className="project-image-container">
+                      <img src={project.image} alt={project.description} />
+                    </div>
+                    <div className="project-details-container">
+                      <span className="project-detail">{project.description}</span>
+                    </div>
+                    <div className="project-links-container">
+                      {project.demoLink && (
+                        <span className="demo-link">
+                          <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                            View
+                          </a>
+                        </span>
+                      )}
+                      {project.codeLink && (
+                        <span className="code-link">
+                          <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
+                            Code
+                          </a>
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                ))}
+        </div>
       </div>
     </div>
   );

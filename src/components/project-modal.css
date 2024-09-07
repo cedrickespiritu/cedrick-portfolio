@@ -22,6 +22,9 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 1rem 0px;
+    height: 26rem;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .project-links-container {
     display: flex;
@@ -37,4 +40,11 @@ span.demo-link, span.code-link {
     padding: 5px 20px;
     border-radius: .5rem;
     color: white;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    align-items: center;
 }
