@@ -80,42 +80,42 @@ const About = () => {
                     <li className='graphic-design-li flex gap-[.5rem] flex-wrap'>
                       <span className="graphic-design-skill">Graphic Design -</span>
                       <span className="icon-container flex h-fit gap-[.5rem]">
-                        <img src="/src/assets/img/skills-icon/photoshop.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/illustrator.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/indesign.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/photoshop.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/illustrator.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/indesign.png" className="w-[40px] h-fit" alt="" />
                       </span>
                     </li>
                     <li className='video-editing-li flex gap-[.5rem] flex-wrap'>
                       <span className="video-editing-skill">Video Editing -</span>
                       <span className="icon-container flex h-fit gap-[.5rem]">
-                        <img src="/src/assets/img/skills-icon/after-effects.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/premiere.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/after-effects.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/premiere.png" className="w-[40px] h-fit" alt="" />
                       </span>
                     </li>
                     <li className='3d-rendering flex gap-[.5rem] flex-wrap'>
                       <span className="3d-rendering">3D Rendering -</span>
                       <span className="icon-container flex h-fit gap-[.5rem]">
-                        <img src="/src/assets/img/skills-icon/cinema4d.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/blender.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/cinema4d.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/blender.png" className="w-[40px] h-fit" alt="" />
                       </span>
                     </li>
                     <li className='frontend-stack flex gap-[.5rem] flex-wrap'>
                       <span className="frontend-stack">Frontend Stack -</span>
                       <span className="icon-container flex h-fit gap-[.5rem]">
-                        <img src="/src/assets/img/skills-icon/html.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/css.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/tailwind.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/bootstrap.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/javascript.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/react.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/html.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/css.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/tailwind.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/bootstrap.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/javascript.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/react.png" className="w-[40px] h-fit" alt="" />
                       </span>
                     </li>
                     <li className='backend-stack flex gap-[.5rem] flex-wrap'>
                       <span className="backend-stack">Backend Stack -</span>
                       <span className="icon-container flex h-fit gap-[.5rem]">
-                        <img src="/src/assets/img/skills-icon/php.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/laravel.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/src/assets/img/skills-icon/mysql.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/php.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/laravel.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/mysql.png" className="w-[40px] h-fit" alt="" />
                       </span>
                     </li>
                   </ul>

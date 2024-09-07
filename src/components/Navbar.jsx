@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="text-white text-lg font-bold flex items-center gap-5">
           <span className="logo-container">
             <a href="#hero">
-              <img src="src/assets/img/ce-logo.png" className="w-[50px]" alt="logo" />
+              <img src="/assets/img/ce-logo.png" className="w-[50px]" alt="logo" />
             </a>
           </span>
           <span>Cedrick Portfolio</span>
