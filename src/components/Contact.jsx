@@ -7,11 +7,11 @@ const Contact = () => {
       <div className="flex flex-col justify-center items-center min-h-[85vh] max-w-[1000px] mx-auto px-2 md:px-8 text-white gap-10">
         <span className="page-title-span">Contact</span>
         <div className="contacts-container flex-wrap justify-center">
-            <span className="gradpic-container"><img src="src/assets/img/gradpic.png" alt="" /> </span>
+            <span className="gradpic-container"><img src="/src/assets/img/gradpic.png" alt="" /> </span>
             <span className="workwithme-span">Work <br />with me</span>
             <span className="contact-details-span">
                 <span className="contact-info-span">
-                    <span className="contact-icon"><img src="src/assets/img/contact-icon/address-icon.png" alt="" /></span>
+                    <span className="contact-icon"><img src="/src/assets/img/contact-icon/address-icon.png" alt="" /></span>
                     <span className="myaddress">
                         <ul>
                             <li>Sampaguita West Lipa City Batangas</li>
@@ -20,7 +20,7 @@ const Contact = () => {
                     </span>
                 </span>
                 <span className="contact-info-span">
-                    <span className="contact-details-span"><img src="src/assets/img/contact-icon/mail-icon.png" alt="" /></span>
+                    <span className="contact-details-span"><img src="/src/assets/img/contact-icon/mail-icon.png" alt="" /></span>
                     <span className="myaddress">
                         <ul>
                             <li>cedrickespiritu070@gmail.com</li>
@@ -28,7 +28,7 @@ const Contact = () => {
                     </span>
                 </span>
                 <span className="contact-info-span">
-                    <span className="contact-icon"><img src="src/assets/img/contact-icon/number-icon.png" alt="" /></span>
+                    <span className="contact-icon"><img src="/src/assets/img/contact-icon/number-icon.png" alt="" /></span>
                     <span className="myaddress">
                         <ul>
                             <li>0985 382 3940 (TNT)</li>
