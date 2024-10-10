@@ -66,7 +66,7 @@ const About = () => {
                <button onClick={() => scrollToSection('project')} className="view-projects-btn text-secondary border-[4px] border-secondary w-[80%] lg:w-full mt-5 py-2 rounded-[15px] font-semibold text-[20px]">View Recent Projects</button>
             </span>
       </div>
-      <div className="personal-info-list w-[100%] lg:w-[50%] h-max lg:h-[400px] text-[23px] font-semibold">
+      <div className="personal-info-list w-[100%] lg:w-[50%] h-max lg:h-[590px] text-[23px] font-semibold">
           <span className='skills-experience-education-span flex flex-wrap gap-[5px] flex-row justify-evenly mx-0 my-5 cursor-pointer'>
             <span className={`skills px-[10px] ${activeSection === 'skills' && 'active-info border-b-[5px] border-white border-solid'}`} onClick={() => handleSectionClick('skills')}>Skills</span>
             <span className={`experience px-[10px] ${activeSection === 'experience' && 'active-info border-b-[5px] border-white border-solid'}`} onClick={() => handleSectionClick('experience')}>Experience</span>
