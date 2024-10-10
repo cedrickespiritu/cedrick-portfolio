@@ -102,8 +102,8 @@ const About = () => {
                     <li className='3d-rendering flex gap-[.5rem] flex-wrap'>
                       <span className="web-designing">Web Designing -</span>
                       <span className="icon-container flex h-fit gap-[.5rem]">
-                        <img src="/assets/img/skills-icon/figma.png" className="w-[40px] h-fit" alt="" />
-                        <img src="/assets/img/skills-icon/framer.png" className="w-[40px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/figma.png" className="w-[30px] h-fit" alt="" />
+                        <img src="/assets/img/skills-icon/framer.png" className="w-[50px] h-fit" alt="" />
                       </span>
                     </li>
                     <li className='frontend-stack flex gap-[.5rem] flex-wrap'>
