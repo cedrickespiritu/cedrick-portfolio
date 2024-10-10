@@ -3,7 +3,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="h-full lg:h-screen px-10 bg-cover bg-center bg-no-repeat bg-primary font-manrope py-[4.5rem]">
+    <div className="h-full lg:h-max px-10 bg-cover bg-center bg-no-repeat bg-primary font-manrope py-[4.5rem]">
       <div className="flex flex-col justify-center items-center min-h-[85vh] max-w-[1000px] mx-auto px-2 md:px-8 text-white gap-10">
         <span className="page-title-span">Contact</span>
         <div className="contacts-container flex-wrap justify-center">
